@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+
+    >
+
+
+    <EditText
+        android:id="@+id/et_inputText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/edittextstyle"
+        android:hint="Höhe Baum hier eingeben..."
+        android:paddingLeft="10dp"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/btn_zeichnen"
+        android:layout_width="96dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/edittextstyle"
+        android:text="ZEICHNEN" />
+
+
+    <TextView
+        android:id="@+id/et_outputText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/et_inputText"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittextstyle"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
